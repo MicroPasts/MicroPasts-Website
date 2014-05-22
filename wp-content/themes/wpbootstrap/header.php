@@ -21,8 +21,10 @@
 <body background='<?php include ("bg.php"); echo $selectedBg; ?>'>
 
 <div class="header-container">
+
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     
+  <div class="menu-container">
+
       <div class="navbar-header">
          <a href="http://micropasts.org/" class="logo"><img src="http://micropasts.org/wp-content/uploads/2014/04/mp_transparent.png" alt="MicroPasts" width="130" height="24"></a>
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,6 +45,7 @@
             <li><a href="http://research.micropasts.org">Blog</a></li>
          </ul>
       </div>
-    
+
+   </div>
    </div>
 </div>
