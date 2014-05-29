@@ -18,10 +18,13 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body background='<?php include ("bg.php"); echo $selectedBg; ?>'>
+
 <div class="header-container">
+
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     
+  <div class="menu-container">
+
       <div class="navbar-header">
          <a href="http://micropasts.org/" class="logo"><img src="http://micropasts.org/wp-content/uploads/2014/04/mp_transparent.png" alt="MicroPasts" width="130" height="24"></a>
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,11 +38,14 @@
          <ul class="nav navbar-nav">
             <li><a href="http://crowdsourced.micropasts.org/">Crowd-sourcing</a></li>
             <li<?php if (is_page('Crowd-funding')) { echo " class=\"active\""; }?>><a href="/crowdfunding">Crowd-funding</a></li>
-            <li><a href="http://community.micropasts.org">Community forum</a></li>
-            <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data centre</a></li>
+            <li><a href="http://community.micropasts.org">Forum</a></li>
+            <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li>
+            <li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li>
             <li<?php if (is_page('About')) { echo " class=\"active\""; }?>><a href="/about">About</a></li>
+            <li><a href="http://research.micropasts.org">Blog</a></li>
          </ul>
       </div>
-    
+
+   </div>
    </div>
 </div>

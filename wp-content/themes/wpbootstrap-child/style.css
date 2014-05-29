@@ -33,13 +33,13 @@ body {
   background-color: #000;
   font-family: Arial, Helvetica, Sans-Serif;
   text-align: center;
-  background-image: url("http://micropasts.org/wp-content/uploads/2014/04/pg_final1.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
 }
 .wrap {
-  min-height: 97%;
+  min-height: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -72,7 +72,8 @@ body {
 }
 .navbar-fixed-top {
   top: 0;
-  padding-top: 3px;
+  padding-top: 10px; /* was 3px */
+  padding-bottom: 10px; /* new addition */
   padding-right: 20px;
   padding-left: 20px;
   border-width: 0 0 1px;
@@ -80,6 +81,11 @@ body {
   margin-right: auto;
   margin-left: auto;
 } 
+.menu-container { /* new */
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .navbar-header {
   padding-top: 8px;
 }
@@ -137,14 +143,13 @@ body {
 /* JUMBOTRONS */
 
 .jumbotron {
-  padding: 15px;
-  margin-bottom: 30px;
-  background-color: rgba(238, 238, 238, 0.7);
-  text-shadow: #777 0.1em 0.1em 0.1em;
+  padding: 30px; /* was 15px */
+  padding-bottom: 15px;
+  background-color: rgba(238, 238, 238, 1);
 }
 .jumbotron-transparent {
-  padding: 15px; /* Added from parent theme */
-  margin-bottom: 30px; /* Added from parent theme */
+  padding: 15px;
+  margin-bottom: 30px;
   width: 100%;
   background: transparent;
 }
@@ -162,7 +167,7 @@ body {
 .jumbotron-page {
   padding: 50px;
   margin-bottom: 30px;
-  background-color: rgba(238, 238, 238, 1); /*0.9*/
+  background-color: rgba(238, 238, 238, 1);
   border-radius: 6px;
   margin-right: auto;
   margin-left: auto;
@@ -204,10 +209,20 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  .menu-container { /* new */
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media (min-width: 992px) {
   .container .jumbotron { 
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu-container { /* new */
     width: 800px;
     margin-right: auto;
     margin-left: auto;
@@ -228,7 +243,6 @@ body {
   }
   .navbar-fixed-top { 
     width: 100%;
-    padding-left: 150px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -246,6 +260,11 @@ body {
 
 @media (min-width: 1200px) {
   .container .jumbotron { 
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu-container { /* new */
     width: 900px;
     margin-right: auto;
     margin-left: auto;
@@ -271,7 +290,6 @@ body {
   }
   .navbar-fixed-top { 
     width: 100%;
-    padding-left: 250px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -282,7 +300,7 @@ body {
 
 @media (max-width: 992px) {
   .home-push {
-    height: 50px;
+    height: 100px;
   } 
   .push {
     height: 200px;
@@ -290,11 +308,5 @@ body {
   .footer {
     height: 230px;
     margin-top: -230px; 
-  }
-}
-
-@media (min-height: 850px) and (min-width: 992px) {
-  .home-top-container {
-    height: 150px;
   }
 }

@@ -2,12 +2,13 @@
 
 <div class="wrap">
 <div class="container">
-   <div class="top-container home-top-container"></div>
+   <div class="top-container"></div>
 
    <div class="row jumbotron">
       <div class="col-md-12">
-         <h1>MicroPasts</h1>
-         <h3>A community platform for conducting, designing and funding research into our human past.</h3>
+         <p><h1>MicroPasts</h1></p>
+         <p><h3>A community platform for conducting, designing and funding research into our human past.</h3></p>   
+         <img src="http://micropasts.org/wp-content/uploads/2014/05/figurines_800px.png">       
       </div>
    </div>
 
