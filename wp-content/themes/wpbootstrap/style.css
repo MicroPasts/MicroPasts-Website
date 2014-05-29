@@ -30,18 +30,19 @@ body {
   background-color: #000;
   font-family: Arial, Helvetica, Sans-Serif;
   text-align: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
 }
 .wrap {
-  min-height: 97%;
+  min-height: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
 .container {
   overflow: auto;
-  padding-bottom: 145px
+  padding-bottom: 145px;
 }
 .top-container {
   height: 80px;
@@ -49,10 +50,7 @@ body {
 .push {
   height: 120px;
 }
-/*.figurines {
-  float: right;
-  margin: 20px 0px 7px 40px;
-}*/
+
 
 
 /* HEADER */
@@ -81,8 +79,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 } 
-/* new */
-.menu-container {
+.menu-container { /* new */
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -138,6 +135,8 @@ body {
 }
 .logoFooter {
   padding-top: 10px;
+  max-height: 50%;
+  max-width: 50%;
 }
 
 
@@ -210,8 +209,7 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-  /* new */
-  .menu-container {
+  .menu-container { /* new */
     width: 750px;
     margin-right: auto;
     margin-left: auto;
@@ -224,8 +222,7 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-  /* new */
-  .menu-container {
+  .menu-container { /* new */
     width: 800px;
     margin-right: auto;
     margin-left: auto;
@@ -263,18 +260,17 @@ body {
 
 @media (min-width: 1200px) {
   .container .jumbotron { 
-    width: 900px; /* 900px in child theme */
+    width: 900px;
     margin-right: auto;
     margin-left: auto;
   }
-  /* new */
-  .menu-container {
+  .menu-container { /* new */
     width: 900px;
     margin-right: auto;
     margin-left: auto;
   }
   .jumbotron-transparent { 
-    width: 950px; /* 950px in child theme */
+    width: 950px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -311,39 +307,6 @@ body {
   }  
   .footer {
     height: 230px;
-    margin-top: -230px; 
-  }
-}
-
-/* @media (min-height: 850px) and (min-width: 992px) {
-  .home-top-container {
-    height: 150px;
-  }
-} */
-
-/* The following is only on the parent theme (for the test site): */
-
-@media screen and (min-width: 992px) {
-  .figurines { 
-    float: right;
-    margin: 20px 0px 7px 40px;
-  }
-}
-@media (min-width: 768px) and (max-width: 992px) {
- .figurines {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   clear: both;
-   width: 450px;
-   height: 300px;
-  }
-}
-@media (max-width: 992px) {
- .figurines {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   clear: both;
+    margin-top: -230px;
   }
 }
