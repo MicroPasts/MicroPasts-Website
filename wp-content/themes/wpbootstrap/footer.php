@@ -1,9 +1,9 @@
 <div class="footer">
 <hr>
     <div class="row">
-       <div class="col-md-4"><a href="http://ucl.ac.uk/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/05/UCL-Logo.png" width="117" height="35" class="logoFooter"></a></div>
-       <div class="col-md-4"><a href="http://www.britishmuseum.org/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/05/BM-Logo.png" width="100" height="35" class="logoFooter"></a></div>
-       <div class="col-md-4"><a href="http://www.ahrc.ac.uk/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/04/AHRC-Logo.png" width="149" height="35" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://ucl.ac.uk/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/05/UCL-Logo.png" width="117" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://www.britishmuseum.org/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/05/BM-Logo.png" width="100" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://www.ahrc.ac.uk/"><img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/04/AHRC-Logo.png" width="149" class="logoFooter"></a></div>
     </div>
     <div class="row">      
        <div class="col-md-12">

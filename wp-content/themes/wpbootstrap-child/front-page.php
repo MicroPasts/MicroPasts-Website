@@ -8,7 +8,7 @@
       <div class="col-md-12">
          <p><h1>MicroPasts</h1></p>
          <p><h3>A community platform for conducting, designing and funding research into our human past.</h3></p>   
-         <img src="http://micropasts.org/wp-content/uploads/2014/05/figurines_800px.png">       
+         <img src="http://micropasts.org/wp-content/uploads/2014/05/figurines_800px.png" class="figurines">       
       </div>
    </div>
 
