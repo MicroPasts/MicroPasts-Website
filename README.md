@@ -7,7 +7,7 @@ by Adi Keinan-Schoonbert.
 
 Relevant folders are:
 
-* themes/wpbootstrap - parent theme; files for the test site (adi.micropasts.org)
+* wpbootstrap - parent theme; files for the test site (adi.micropasts.org)
 * micropasts - child theme; files for the micropasts.org site
 
 Upload the theme folder required to wp-content/themes.
