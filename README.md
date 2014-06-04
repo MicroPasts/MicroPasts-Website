@@ -3,7 +3,7 @@ MicroPasts Wordpress themes
 
 This repository contains the theme files for the MicroPasts website, which
 is run on Wordpress. It is a child theme of the wpbootstrap and has been developed
-by Adi Keinan-Schoonbert.
+by Adi Keinan-Schoonbaert.
 
 Relevant folders are:
 
