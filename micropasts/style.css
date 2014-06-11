@@ -41,7 +41,7 @@ body {
 }
 .container {
   overflow: auto;
-  padding-bottom: 145px
+  padding-bottom: 185px
 }
 .top-container {
   height: 80px;
@@ -125,17 +125,19 @@ body {
 
 .footer {
   background-color: #000;
+  padding-top: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  margin-top: -145px; 
+  margin-top: -185px; 
   padding-left: 25px;
   padding-right: 25px;
   width: 100%;
   max-width: 100%;
   min-width: 100%;
   position: relative;
-  height: 145px;
+  height: 185px;
   clear: both;
+  border-top: 20px solid #686868;
 }
 .footer ul {
   text-align: center;
@@ -321,7 +323,7 @@ body {
     height: 200px;
   }  
   .footer {
-    height: 230px;
-    margin-top: -230px; 
+    height: 270px;
+    margin-top: -270px; 
   }
 }
