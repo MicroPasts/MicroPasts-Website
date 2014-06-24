@@ -5,7 +5,7 @@
    <div class="top-container"></div>
 
    <div class="row jumbotron">
-      <div class="col-md-12">
+      <div class="col-md-12 mainpage">
          <p><h1>MicroPasts</h1></p>
          <p><h3>A community platform for conducting, designing and funding research into our human past.</h3></p>   
          <img src="http://adi.micropasts.org/wp-content/uploads/sites/3/2014/05/figurines_800px.png" class="figurines">       
