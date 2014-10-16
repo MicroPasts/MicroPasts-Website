@@ -15,7 +15,7 @@
              <li><i class="fa fa-facebook-square" style="color:white"></i> <a href="http://facebook.com/micropasts">Facebook</a></li>  
              <li><i class="fa fa-flickr" style="color:white"></i> <a href="https://www.flickr.com/photos/micropasts">Flickr</a></li>
           </ul>
-       </div>	 
+       </div>  
     </div>  
 </div>
 

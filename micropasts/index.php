@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	  	<?php the_content(); ?>
+      <?php the_content(); ?>
 
-	<?php endwhile; else: ?>
+   <?php endwhile; else: ?>
 
 <div class="wrap">
 <div class="top-container"></div>
@@ -23,6 +23,6 @@
 <div class="push"></div>
 </div>
 
-	<?php endif; ?>
+   <?php endif; ?>
 
 <?php get_footer(); ?>

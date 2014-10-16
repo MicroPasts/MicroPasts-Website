@@ -69,7 +69,11 @@ body {
   padding-left: 27px; 
   text-align: left;
 }
-
+.tdstyle {
+  font-size: 14px;
+  font-family: Arial, Helvetica, Sans-Serif;
+  text-align: left;
+}
 
 /* HEADER */
 
@@ -194,14 +198,14 @@ body {
 .jumbotron-page p {
   padding: 3px;
   text-align: left;
-  font-size: 14px;	
+  font-size: 14px;  
 }
 .jumbotron-page h3, h4 {
   text-align:left;
-  padding-top: 15px;	
+  padding-top: 15px;  
 }
 .jumbotron-page ul {
-  text-align:left;	
+  text-align:left;  
 }
 .jumbotron-small p {
   text-align: left;
@@ -210,7 +214,7 @@ body {
 .jumbotron-small h3 {
   text-align: left;
   font-size: 18px;
-  font-weight: bold;	
+  font-weight: bold;  
 }
 
 

@@ -21,7 +21,7 @@
       <div class="jumbotron-small col-md-4">
          <h3>Research you fund</h3>
          <p>Choose among new proposals for research and help to crowd-fund them.</p>     
-         <p><a class="btn btn-primary" href="http://micropasts.org/crowdfunding/">View details <i class="fa fa-chevron-right"></i></a></p>
+         <p><a class="btn btn-primary" href="https://crowdfunded.micropasts.org/">View details <i class="fa fa-chevron-right"></i></a></p>
       </div>
       <div class="jumbotron-small col-md-4">
          <h3>Discuss and design</h3>

@@ -36,21 +36,20 @@
       </div>  
       <div class="navbar-collapse collapse">  
          <ul class="nav navbar-nav">
-            <li><a href="http://crowdsourced.micropasts.org/">Crowd-sourcing</a></li>
-            <li<?php if (is_page('Crowd-funding')) { echo " class=\"active\""; }?>><a href="/crowdfunding">Crowd-funding</a></li>
-            <li><a href="http://community.micropasts.org">Forum</a></li>
-            <!-- li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li -->
-            <!-- li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li -->
-            <li<?php if (is_page('About')) { echo " class=\"active\""; }?>><a href="/about">About</a></li>
-            <!-- li><a href="http://research.micropasts.org">Blog</a></li -->
-            <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-               <ul class="dropdown-menu">
-                  <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li>
-                  <li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li>
-                  <li><a href="http://research.micropasts.org">Blog</a></li>
-               </ul>
-            </li>
+
+      <!-- menu changes to reflect CS site -->  
+            <li><a href="#">Home</a></li>
+      <li><a href="#">Contributors</a></li>
+      <li><a href="#">Applications</a></li>
+      <li<?php if (is_page('About')) { echo " class=\"active\""; }?>><a href="/about">About</a></li>
+      <li><a href="http://community.micropasts.org">Forum</a></li>
+            <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li>
+            <li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li>
+            <li><a href="http://research.micropasts.org">Blog</a></li>
+
+            <!-- li><a href="http://crowdsourced.micropasts.org/">Crowd-sourcing</a></li>
+            <li<?php if (is_page('Crowd-funding')) { echo " class=\"active\""; }?>><a href="/crowdfunding">Crowd-funding</a></li -->
+            
          </ul>
       </div>
 
