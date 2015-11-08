@@ -37,7 +37,6 @@
       <div class="navbar-collapse collapse">  
          <ul class="nav navbar-nav">
             <li><a href="http://crowdsourced.micropasts.org/">Crowd-sourcing</a></li>
-            <li><a href="https://crowdfunded.micropasts.org/">Crowd-funding</a></li>
             <li><a href="http://community.micropasts.org">Forum</a></li>
             <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li>
             <li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li>
