@@ -41,7 +41,6 @@
             <li<?php if (is_page('data-centre')) { echo " class=\"active\""; }?>><a href="/data-centre">Data</a></li>
             <li<?php if (is_page('learning')) { echo " class=\"active\""; }?>><a href="/learning">Learning</a></li>
             <li<?php if (is_page('About')) { echo " class=\"active\""; }?>><a href="/about">About</a></li>
-            <li><a href="http://research.micropasts.org">Blog</a></li>
          </ul>
       </div>
 
