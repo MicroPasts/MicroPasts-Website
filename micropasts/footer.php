@@ -1,9 +1,9 @@
 <div class="footer">
 
     <div class="row">
-       <div class="col-md-4"><a href="http://ucl.ac.uk/"><img src="http://micropasts.org/wp-content/uploads/2014/05/UCL-Logo.png" width="117" class="logoFooter"></a></div>
-       <div class="col-md-4"><a href="http://www.britishmuseum.org/"><img src="http://micropasts.org/wp-content/uploads/2014/05/BM-Logo.png" width="100" class="logoFooter"></a></div>
-       <div class="col-md-4"><a href="http://www.ahrc.ac.uk/"><img src="http://micropasts.org/wp-content/uploads/2014/05/AHRC-Logo.png" width="149" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://ucl.ac.uk/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2014/05/UCL-Logo.png" width="117" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://www.britishmuseum.org/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2014/05/BM-Logo.png" width="100" class="logoFooter"></a></div>
+       <div class="col-md-4"><a href="http://www.ahrc.ac.uk/"><img src="<?php echo site_url(); ?>/wp-content/uploads/2014/05/AHRC-Logo.png" width="149" class="logoFooter"></a></div>
     </div>
 
     <div class="row">      
