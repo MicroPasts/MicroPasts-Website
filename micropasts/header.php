@@ -26,7 +26,7 @@
   <div class="menu-container">
 
       <div class="navbar-header">
-         <a href="http://micropasts.org/" class="logo"><img src="http://micropasts.org/wp-content/uploads/2014/04/mp_transparent.png" alt="MicroPasts" width="130" height="24"></a>
+         <a href="http://crowdsourced.micropasts.org/" class="logo"><img src="/wp-content/uploads/2014/04/mp_transparent.png" alt="MicroPasts" width="130" height="24"></a>
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
