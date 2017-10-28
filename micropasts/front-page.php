@@ -29,32 +29,36 @@
          <p><a class="btn btn-primary" href="http://community.micropasts.org/">View details <i class="fa fa-chevron-right"></i></a></p>
       </div> -->
       
-      <?php
-$postlist = get_posts( 'orderby=menu_order&sort_order=asc' );
-$posts = array();
-foreach ( $postlist as $post ) {
-   $posts[] += $post->ID;
-}
+      <article>
 
-$current = array_search( get_the_ID(), $posts );
-$prevID = $posts[$current-1];
-$nextID = $posts[$current+1];
-?>
+		<?php // Display blog posts on any page @ https://m0n.co/l
+		$temp = $wp_query; $wp_query= null;
+		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=5' . '&paged='.$paged);
+		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-<div class="navigation">
-<?php if ( !empty( $prevID ) ): ?>
-<div class="alignleft">
-<a href="<?php echo get_permalink( $prevID ); ?>"
-  title="<?php echo get_the_title( $prevID ); ?>">Previous</a>
-</div>
-<?php endif;
-if ( !empty( $nextID ) ): ?>
-<div class="alignright">
-<a href="<?php echo get_permalink( $nextID ); ?>" 
- title="<?php echo get_the_title( $nextID ); ?>">Next</a>
-</div>
-<?php endif; ?>
-</div><!-- .navigation -->
+		<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
+		<?php the_excerpt(); ?>
+
+		<?php endwhile; ?>
+
+		<?php if ($paged > 1) { ?>
+
+		<nav id="nav-posts">
+			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+			<div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
+		</nav>
+
+		<?php } else { ?>
+
+		<nav id="nav-posts">
+			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+		</nav>
+
+		<?php } ?>
+
+		<?php wp_reset_postdata(); ?>
+
+	</article>
    </div>
 
 </div>
